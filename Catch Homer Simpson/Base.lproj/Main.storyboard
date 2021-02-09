@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="And-nd-BcS">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Simpsonfont DEMO.otf">
+            <string>Simpsonfont</string>
+        </array>
+    </customFonts>
+    <scenes>
+        <!--First View Controller-->
+        <scene sceneID="cz2-8j-Qle">
+            <objects>
+                <viewController id="And-nd-BcS" customClass="FirstViewController" customModule="Catch_Homer_Simpson" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="vVL-Hv-k77" customClass="FirstScreen">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Catch the donuts.png" translatesAutoresizingMaskIntoConstraints="NO" id="feI-lx-jfx">
+                                <rect key="frame" x="42" y="22" width="291" height="175"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="homerhuggingdonut.png" translatesAutoresizingMaskIntoConstraints="NO" id="9gW-QV-qlm">
+                                <rect key="frame" x="42" y="197" width="291" height="301"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="new game.png" translatesAutoresizingMaskIntoConstraints="NO" id="hMS-cs-Qo2">
+                                <rect key="frame" x="42" y="511" width="291" height="113"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.98719888929999999" green="0.1750128567" blue="0.30697941779999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="Ljf-oX-WcM"/>
+                    </view>
+                    <connections>
+                        <outlet property="newGameImageView" destination="hMS-cs-Qo2" id="xF1-Xj-5Hc"/>
+                        <segue destination="MNg-nX-6ef" kind="show" identifier="Go2TheNextPage" id="ppe-8b-Gvj"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="sUr-LY-prI" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1500" y="133.5832083958021"/>
+        </scene>
+        <!--Second View Controller-->
+        <scene sceneID="fpI-vV-25H">
+            <objects>
+                <viewController id="MNg-nX-6ef" customClass="SecondViewController" customModule="Catch_Homer_Simpson" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="b4t-2J-pRU" customClass="SecondScreen">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="pngfuel.com (9).png" translatesAutoresizingMaskIntoConstraints="NO" id="AjW-Mw-FXp">
+                                <rect key="frame" x="4" y="209" width="451" height="466"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="text1.png" translatesAutoresizingMaskIntoConstraints="NO" id="7By-bH-kBI">
+                                <rect key="frame" x="17" y="-55" width="348" height="530"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="play Buttoun.png" translatesAutoresizingMaskIntoConstraints="NO" id="zav-hO-lde">
+                                <rect key="frame" x="308" y="598" width="57" height="49"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.98719888929999999" green="0.1750128567" blue="0.30697941779999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="trailingMargin" secondItem="AjW-Mw-FXp" secondAttribute="trailing" constant="-96" id="Csf-Dj-Qq8"/>
+                            <constraint firstAttribute="bottomMargin" secondItem="AjW-Mw-FXp" secondAttribute="bottom" constant="-8" id="UhR-Me-qos"/>
+                            <constraint firstItem="7By-bH-kBI" firstAttribute="top" secondItem="b4t-2J-pRU" secondAttribute="topMargin" constant="-75" id="Xda-ow-gND"/>
+                            <constraint firstItem="AjW-Mw-FXp" firstAttribute="top" secondItem="owl-y9-zTy" secondAttribute="top" constant="189" id="aEw-Af-p2i"/>
+                            <constraint firstItem="7By-bH-kBI" firstAttribute="leading" secondItem="owl-y9-zTy" secondAttribute="leading" constant="17" id="cXr-c3-UzC"/>
+                            <constraint firstItem="owl-y9-zTy" firstAttribute="trailing" secondItem="7By-bH-kBI" secondAttribute="trailing" constant="10" id="hYj-zn-V7p"/>
+                            <constraint firstItem="AjW-Mw-FXp" firstAttribute="leading" secondItem="owl-y9-zTy" secondAttribute="leading" constant="4" id="iwH-PL-ORN"/>
+                            <constraint firstItem="owl-y9-zTy" firstAttribute="bottom" secondItem="7By-bH-kBI" secondAttribute="bottom" constant="192" id="uj4-Yx-AVC"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="owl-y9-zTy"/>
+                    </view>
+                    <connections>
+                        <outlet property="StartButon" destination="zav-hO-lde" id="Pos-pu-fd9"/>
+                        <outlet property="textImageView" destination="7By-bH-kBI" id="9Z6-Vt-DCc"/>
+                        <segue destination="BYZ-38-t0r" kind="show" identifier="StartGame" id="gMa-Fn-th8"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="cxe-Ck-t9X" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-674.39999999999998" y="133.5832083958021"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Catch_Homer_Simpson" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC" customClass="GameScreen">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="donut.png" translatesAutoresizingMaskIntoConstraints="NO" id="UQV-mw-y4D">
+                                <rect key="frame" x="141" y="250" width="93" height="115"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="donut.png" translatesAutoresizingMaskIntoConstraints="NO" id="ShD-a0-ni6">
+                                <rect key="frame" x="242" y="250" width="93" height="115"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="donut.png" translatesAutoresizingMaskIntoConstraints="NO" id="8vO-HM-XBX">
+                                <rect key="frame" x="40" y="250" width="93" height="115"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="donut.png" translatesAutoresizingMaskIntoConstraints="NO" id="z2H-gn-YA3">
+                                <rect key="frame" x="141" y="127" width="93" height="115"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="donut.png" translatesAutoresizingMaskIntoConstraints="NO" id="cLf-T7-bnA">
+                                <rect key="frame" x="242" y="127" width="93" height="115"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="donut.png" translatesAutoresizingMaskIntoConstraints="NO" id="fzZ-X1-nHP">
+                                <rect key="frame" x="40" y="127" width="93" height="115"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="donut.png" translatesAutoresizingMaskIntoConstraints="NO" id="9zE-x1-fLs">
+                                <rect key="frame" x="141" y="373" width="93" height="115"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="donut.png" translatesAutoresizingMaskIntoConstraints="NO" id="lpI-YO-hzl">
+                                <rect key="frame" x="242" y="373" width="93" height="115"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="donut.png" translatesAutoresizingMaskIntoConstraints="NO" id="AzG-ee-Qkg">
+                                <rect key="frame" x="40" y="373" width="93" height="115"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FEW-Tq-Pti">
+                                <rect key="frame" x="40" y="36" width="296" height="40"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Simpsonfont" family="Simpsonfont" pointSize="26"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="40s" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="G2Q-kq-B6d">
+                                <rect key="frame" x="40" y="36" width="296" height="40"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Simpsonfont" family="Simpsonfont" pointSize="25"/>
+                                <color key="textColor" red="0.99942404029999998" green="0.98555368190000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                                <color key="shadowColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <size key="shadowOffset" width="0.0" height="3"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Your Score:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eKc-YE-9aq">
+                                <rect key="frame" x="40" y="71" width="296" height="40"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Simpsonfont" family="Simpsonfont" pointSize="25"/>
+                                <color key="textColor" red="0.99942404029999998" green="0.98555368190000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                                <color key="shadowColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <size key="shadowOffset" width="0.0" height="3"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="HighScore:" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jLw-Ge-foK">
+                                <rect key="frame" x="66" y="520" width="150" height="40"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Simpsonfont" family="Simpsonfont" pointSize="25"/>
+                                <color key="textColor" red="0.99942404029999998" green="0.98555368190000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                                <color key="shadowColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <size key="shadowOffset" width="0.0" height="3"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wSE-Ru-whM">
+                                <rect key="frame" x="215" y="520" width="144" height="40"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Simpsonfont" family="Simpsonfont" pointSize="25"/>
+                                <color key="textColor" red="0.99942404029999998" green="0.98555368190000003" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                                <color key="shadowColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <size key="shadowOffset" width="0.0" height="3"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="333.png" translatesAutoresizingMaskIntoConstraints="NO" id="XLj-Ru-yGt">
+                                <rect key="frame" x="0.0" y="120" width="375" height="349"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="replay.png" translatesAutoresizingMaskIntoConstraints="NO" id="zka-aJ-gn3">
+                                <rect key="frame" x="191" y="579" width="172" height="51"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="home.png" translatesAutoresizingMaskIntoConstraints="NO" id="UFb-Vr-msc">
+                                <rect key="frame" x="11" y="579" width="172" height="51"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.98719888929999999" green="0.1750128567" blue="0.30697941779999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <connections>
+                        <outlet property="CountDown" destination="XLj-Ru-yGt" id="3Ng-9K-M7R"/>
+                        <outlet property="HomeImageView" destination="UFb-Vr-msc" id="g6L-T6-6IT"/>
+                        <outlet property="HomerImage1" destination="fzZ-X1-nHP" id="r1f-YS-KRo"/>
+                        <outlet property="HomerImage2" destination="z2H-gn-YA3" id="06B-pY-Gtn"/>
+                        <outlet property="HomerImage3" destination="cLf-T7-bnA" id="hMd-Mw-OBy"/>
+                        <outlet property="HomerImage4" destination="8vO-HM-XBX" id="vd5-Jc-hwE"/>
+                        <outlet property="HomerImage5" destination="UQV-mw-y4D" id="faQ-85-bpC"/>
+                        <outlet property="HomerImage6" destination="ShD-a0-ni6" id="RK6-at-8JD"/>
+                        <outlet property="HomerImage7" destination="AzG-ee-Qkg" id="gpD-4k-Zcr"/>
+                        <outlet property="HomerImage8" destination="9zE-x1-fLs" id="fQl-LI-48b"/>
+                        <outlet property="HomerImage9" destination="lpI-YO-hzl" id="nXz-2L-5FQ"/>
+                        <outlet property="ReplayImageView" destination="zka-aJ-gn3" id="XDX-zg-ZNH"/>
+                        <outlet property="highScoreLbl" destination="wSE-Ru-whM" id="uC3-p8-i4J"/>
+                        <outlet property="timerLbl" destination="G2Q-kq-B6d" id="uqp-7I-jCe"/>
+                        <outlet property="yourScoreLbl" destination="eKc-YE-9aq" id="1Gl-oc-tXd"/>
+                        <segue destination="And-nd-BcS" kind="show" identifier="GoHome" id="k2e-zF-3bk"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="133.59999999999999" y="133.5832083958021"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="333.png" width="500" height="500"/>
+        <image name="Catch the donuts.png" width="1000" height="450"/>
+        <image name="donut.png" width="500" height="500"/>
+        <image name="home.png" width="860" height="260"/>
+        <image name="homerhuggingdonut.png" width="1000" height="1045"/>
+        <image name="new game.png" width="860" height="260"/>
+        <image name="play Buttoun.png" width="500" height="500"/>
+        <image name="pngfuel.com (9).png" width="900" height="900"/>
+        <image name="replay.png" width="860" height="260"/>
+        <image name="text1.png" width="1000" height="900"/>
+    </resources>
+</document>

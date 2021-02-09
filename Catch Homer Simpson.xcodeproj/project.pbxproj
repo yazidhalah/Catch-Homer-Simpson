@@ -1,0 +1,485 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		042E7F4A23BFE07300A5D50D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042E7F4923BFE07300A5D50D /* AppDelegate.swift */; };
+		042E7F4C23BFE07300A5D50D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042E7F4B23BFE07300A5D50D /* ViewController.swift */; };
+		042E7F4F23BFE07300A5D50D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 042E7F4D23BFE07300A5D50D /* Main.storyboard */; };
+		042E7F5123BFE07900A5D50D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 042E7F5023BFE07900A5D50D /* Assets.xcassets */; };
+		042E7F5423BFE07900A5D50D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 042E7F5223BFE07900A5D50D /* LaunchScreen.storyboard */; };
+		042E7F5C23BFE0B000A5D50D /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = 042E7F5B23BFE0B000A5D50D /* 2.png */; };
+		042E7F5F23BFEDB500A5D50D /* output-onlinepngtools.png in Resources */ = {isa = PBXBuildFile; fileRef = 042E7F5D23BFEDB500A5D50D /* output-onlinepngtools.png */; };
+		042E7F6223BFFD2600A5D50D /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 042E7F6123BFFD2600A5D50D /* 1.png */; };
+		042E7F6C23C01D5400A5D50D /* 11.png in Resources */ = {isa = PBXBuildFile; fileRef = 042E7F6923C01D5300A5D50D /* 11.png */; };
+		042E7F6D23C01D5400A5D50D /* 22.png in Resources */ = {isa = PBXBuildFile; fileRef = 042E7F6A23C01D5400A5D50D /* 22.png */; };
+		042E7F6E23C01D5400A5D50D /* 33.png in Resources */ = {isa = PBXBuildFile; fileRef = 042E7F6B23C01D5400A5D50D /* 33.png */; };
+		04EECE1923C18C1D000F17B8 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EECE1823C18C1D000F17B8 /* FirstViewController.swift */; };
+		04EECE1B23C18C44000F17B8 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04EECE1A23C18C44000F17B8 /* SecondViewController.swift */; };
+		FE99368E25D314D300184F96 /* 333.png in Resources */ = {isa = PBXBuildFile; fileRef = FE99368B25D314D100184F96 /* 333.png */; };
+		FE99368F25D314D300184F96 /* 111.png in Resources */ = {isa = PBXBuildFile; fileRef = FE99368C25D314D200184F96 /* 111.png */; };
+		FE99369025D314D300184F96 /* 222.png in Resources */ = {isa = PBXBuildFile; fileRef = FE99368D25D314D300184F96 /* 222.png */; };
+		FE9936B025D3154600184F96 /* boom.png in Resources */ = {isa = PBXBuildFile; fileRef = FE99369725D3153600184F96 /* boom.png */; };
+		FE9936B125D3154600184F96 /* pngfuel.com (8).png in Resources */ = {isa = PBXBuildFile; fileRef = FE99369825D3153700184F96 /* pngfuel.com (8).png */; };
+		FE9936B525D3154600184F96 /* pngfuel.com (7).png in Resources */ = {isa = PBXBuildFile; fileRef = FE99369C25D3153900184F96 /* pngfuel.com (7).png */; };
+		FE9936B825D3154600184F96 /* home.png in Resources */ = {isa = PBXBuildFile; fileRef = FE99369F25D3153A00184F96 /* home.png */; };
+		FE9936B925D3154600184F96 /* leaderboard.png in Resources */ = {isa = PBXBuildFile; fileRef = FE9936A025D3153B00184F96 /* leaderboard.png */; };
+		FE9936BA25D3154600184F96 /* bomb.png in Resources */ = {isa = PBXBuildFile; fileRef = FE9936A125D3153C00184F96 /* bomb.png */; };
+		FE9936BB25D3154600184F96 /* pngfuel.com (4).png in Resources */ = {isa = PBXBuildFile; fileRef = FE9936A225D3153C00184F96 /* pngfuel.com (4).png */; };
+		FE9936BE25D3154600184F96 /* pngfuel.com (3).png in Resources */ = {isa = PBXBuildFile; fileRef = FE9936A525D3153E00184F96 /* pngfuel.com (3).png */; };
+		FE9936BF25D3154600184F96 /* pngfuel.com.png in Resources */ = {isa = PBXBuildFile; fileRef = FE9936A625D3153F00184F96 /* pngfuel.com.png */; };
+		FE9936C025D3154600184F96 /* homerhaed2.png in Resources */ = {isa = PBXBuildFile; fileRef = FE9936A725D3154000184F96 /* homerhaed2.png */; };
+		FE9936C125D3154600184F96 /* homerhead.png in Resources */ = {isa = PBXBuildFile; fileRef = FE9936A825D3154000184F96 /* homerhead.png */; };
+		FE9936C225D3154600184F96 /* pngfuel.com (1).png in Resources */ = {isa = PBXBuildFile; fileRef = FE9936A925D3154100184F96 /* pngfuel.com (1).png */; };
+		FE9936C325D3154600184F96 /* play Buttoun.png in Resources */ = {isa = PBXBuildFile; fileRef = FE9936AA25D3154200184F96 /* play Buttoun.png */; };
+		FE9936C525D3154600184F96 /* new game 1.png in Resources */ = {isa = PBXBuildFile; fileRef = FE9936AC25D3154300184F96 /* new game 1.png */; };
+		FE9936C625D3154600184F96 /* homerhuggingdonut.png in Resources */ = {isa = PBXBuildFile; fileRef = FE9936AD25D3154400184F96 /* homerhuggingdonut.png */; };
+		FE9936C725D3154600184F96 /* donut.png in Resources */ = {isa = PBXBuildFile; fileRef = FE9936AE25D3154500184F96 /* donut.png */; };
+		FE9936C825D3154600184F96 /* replay.png in Resources */ = {isa = PBXBuildFile; fileRef = FE9936AF25D3154600184F96 /* replay.png */; };
+		FEDFD8C925D32F61004377F7 /* homero-png-homer-simpson-bart-simpson-clipart-f9313ff1ac133d3b.png in Resources */ = {isa = PBXBuildFile; fileRef = FEDFD8C825D32F61004377F7 /* homero-png-homer-simpson-bart-simpson-clipart-f9313ff1ac133d3b.png */; };
+		FEDFD8CE25D32F96004377F7 /* text1.png in Resources */ = {isa = PBXBuildFile; fileRef = FEDFD8CA25D32F96004377F7 /* text1.png */; };
+		FEDFD8CF25D32F96004377F7 /* Catch the donuts.png in Resources */ = {isa = PBXBuildFile; fileRef = FEDFD8CB25D32F96004377F7 /* Catch the donuts.png */; };
+		FEDFD8D025D32F96004377F7 /* new game.png in Resources */ = {isa = PBXBuildFile; fileRef = FEDFD8CC25D32F96004377F7 /* new game.png */; };
+		FEDFD8D125D32F96004377F7 /* pngfuel.com (9).png in Resources */ = {isa = PBXBuildFile; fileRef = FEDFD8CD25D32F96004377F7 /* pngfuel.com (9).png */; };
+		FEDFD8DB25D330BA004377F7 /* text3.png in Resources */ = {isa = PBXBuildFile; fileRef = FEDFD8D825D330BA004377F7 /* text3.png */; };
+		FEDFD8DC25D330BA004377F7 /* text2.png in Resources */ = {isa = PBXBuildFile; fileRef = FEDFD8D925D330BA004377F7 /* text2.png */; };
+		FEDFD8DD25D330BA004377F7 /* text4.png in Resources */ = {isa = PBXBuildFile; fileRef = FEDFD8DA25D330BA004377F7 /* text4.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		042E7F4623BFE07300A5D50D /* Catch Homer Simpson.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Catch Homer Simpson.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		042E7F4923BFE07300A5D50D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		042E7F4B23BFE07300A5D50D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		042E7F4E23BFE07300A5D50D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		042E7F5023BFE07900A5D50D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		042E7F5323BFE07900A5D50D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		042E7F5523BFE07900A5D50D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		042E7F5B23BFE0B000A5D50D /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
+		042E7F5D23BFEDB500A5D50D /* output-onlinepngtools.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "output-onlinepngtools.png"; sourceTree = "<group>"; };
+		042E7F6123BFFD2600A5D50D /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
+		042E7F6923C01D5300A5D50D /* 11.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 11.png; sourceTree = "<group>"; };
+		042E7F6A23C01D5400A5D50D /* 22.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 22.png; sourceTree = "<group>"; };
+		042E7F6B23C01D5400A5D50D /* 33.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 33.png; sourceTree = "<group>"; };
+		04EECE1823C18C1D000F17B8 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		04EECE1A23C18C44000F17B8 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		FE99368B25D314D100184F96 /* 333.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 333.png; sourceTree = "<group>"; };
+		FE99368C25D314D200184F96 /* 111.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 111.png; sourceTree = "<group>"; };
+		FE99368D25D314D300184F96 /* 222.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 222.png; sourceTree = "<group>"; };
+		FE99369725D3153600184F96 /* boom.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = boom.png; sourceTree = "<group>"; };
+		FE99369825D3153700184F96 /* pngfuel.com (8).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pngfuel.com (8).png"; sourceTree = "<group>"; };
+		FE99369C25D3153900184F96 /* pngfuel.com (7).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pngfuel.com (7).png"; sourceTree = "<group>"; };
+		FE99369F25D3153A00184F96 /* home.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = home.png; sourceTree = "<group>"; };
+		FE9936A025D3153B00184F96 /* leaderboard.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = leaderboard.png; sourceTree = "<group>"; };
+		FE9936A125D3153C00184F96 /* bomb.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bomb.png; sourceTree = "<group>"; };
+		FE9936A225D3153C00184F96 /* pngfuel.com (4).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pngfuel.com (4).png"; sourceTree = "<group>"; };
+		FE9936A525D3153E00184F96 /* pngfuel.com (3).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pngfuel.com (3).png"; sourceTree = "<group>"; };
+		FE9936A625D3153F00184F96 /* pngfuel.com.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pngfuel.com.png; sourceTree = "<group>"; };
+		FE9936A725D3154000184F96 /* homerhaed2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = homerhaed2.png; sourceTree = "<group>"; };
+		FE9936A825D3154000184F96 /* homerhead.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = homerhead.png; sourceTree = "<group>"; };
+		FE9936A925D3154100184F96 /* pngfuel.com (1).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pngfuel.com (1).png"; sourceTree = "<group>"; };
+		FE9936AA25D3154200184F96 /* play Buttoun.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "play Buttoun.png"; sourceTree = "<group>"; };
+		FE9936AC25D3154300184F96 /* new game 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "new game 1.png"; sourceTree = "<group>"; };
+		FE9936AD25D3154400184F96 /* homerhuggingdonut.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = homerhuggingdonut.png; sourceTree = "<group>"; };
+		FE9936AE25D3154500184F96 /* donut.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = donut.png; sourceTree = "<group>"; };
+		FE9936AF25D3154600184F96 /* replay.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = replay.png; sourceTree = "<group>"; };
+		FEDFD8C825D32F61004377F7 /* homero-png-homer-simpson-bart-simpson-clipart-f9313ff1ac133d3b.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "homero-png-homer-simpson-bart-simpson-clipart-f9313ff1ac133d3b.png"; path = "../../../../../Volumes/VMware Shared Folders/New folder/Catch Homer Simpson/Catch Homer Simpson/homero-png-homer-simpson-bart-simpson-clipart-f9313ff1ac133d3b.png"; sourceTree = "<group>"; };
+		FEDFD8CA25D32F96004377F7 /* text1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = text1.png; path = "../../../../../Volumes/VMware Shared Folders/New folder/Catch Homer Simpson/Catch Homer Simpson/text1.png"; sourceTree = "<group>"; };
+		FEDFD8CB25D32F96004377F7 /* Catch the donuts.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Catch the donuts.png"; path = "../../../../../Volumes/VMware Shared Folders/New folder/Catch Homer Simpson/Catch Homer Simpson/Catch the donuts.png"; sourceTree = "<group>"; };
+		FEDFD8CC25D32F96004377F7 /* new game.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "new game.png"; path = "../../../../../Volumes/VMware Shared Folders/New folder/Catch Homer Simpson/Catch Homer Simpson/new game.png"; sourceTree = "<group>"; };
+		FEDFD8CD25D32F96004377F7 /* pngfuel.com (9).png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "pngfuel.com (9).png"; path = "../../../../../Volumes/VMware Shared Folders/New folder/Catch Homer Simpson/Catch Homer Simpson/pngfuel.com (9).png"; sourceTree = "<group>"; };
+		FEDFD8D825D330BA004377F7 /* text3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = text3.png; sourceTree = "<group>"; };
+		FEDFD8D925D330BA004377F7 /* text2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = text2.png; sourceTree = "<group>"; };
+		FEDFD8DA25D330BA004377F7 /* text4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = text4.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		042E7F4323BFE07300A5D50D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		042E7F3D23BFE07200A5D50D = {
+			isa = PBXGroup;
+			children = (
+				042E7F4823BFE07300A5D50D /* Catch Homer Simpson */,
+				042E7F4723BFE07300A5D50D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		042E7F4723BFE07300A5D50D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				042E7F4623BFE07300A5D50D /* Catch Homer Simpson.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		042E7F4823BFE07300A5D50D /* Catch Homer Simpson */ = {
+			isa = PBXGroup;
+			children = (
+				042E7F4923BFE07300A5D50D /* AppDelegate.swift */,
+				04EECE1823C18C1D000F17B8 /* FirstViewController.swift */,
+				04EECE1A23C18C44000F17B8 /* SecondViewController.swift */,
+				042E7F4B23BFE07300A5D50D /* ViewController.swift */,
+				042E7F4D23BFE07300A5D50D /* Main.storyboard */,
+				042E7F5023BFE07900A5D50D /* Assets.xcassets */,
+				042E7F5223BFE07900A5D50D /* LaunchScreen.storyboard */,
+				042E7F5B23BFE0B000A5D50D /* 2.png */,
+				FE99368C25D314D200184F96 /* 111.png */,
+				FE99368D25D314D300184F96 /* 222.png */,
+				042E7F6123BFFD2600A5D50D /* 1.png */,
+				042E7F6923C01D5300A5D50D /* 11.png */,
+				042E7F6A23C01D5400A5D50D /* 22.png */,
+				FE9936A125D3153C00184F96 /* bomb.png */,
+				FE99369725D3153600184F96 /* boom.png */,
+				FE9936AE25D3154500184F96 /* donut.png */,
+				FE99369F25D3153A00184F96 /* home.png */,
+				FE9936A725D3154000184F96 /* homerhaed2.png */,
+				FE9936A825D3154000184F96 /* homerhead.png */,
+				FE9936AD25D3154400184F96 /* homerhuggingdonut.png */,
+				FEDFD8C825D32F61004377F7 /* homero-png-homer-simpson-bart-simpson-clipart-f9313ff1ac133d3b.png */,
+				FE9936A025D3153B00184F96 /* leaderboard.png */,
+				FE9936AC25D3154300184F96 /* new game 1.png */,
+				FE9936AA25D3154200184F96 /* play Buttoun.png */,
+				FE9936A925D3154100184F96 /* pngfuel.com (1).png */,
+				FE9936A525D3153E00184F96 /* pngfuel.com (3).png */,
+				FE9936A225D3153C00184F96 /* pngfuel.com (4).png */,
+				FE99369C25D3153900184F96 /* pngfuel.com (7).png */,
+				FE99369825D3153700184F96 /* pngfuel.com (8).png */,
+				FE9936A625D3153F00184F96 /* pngfuel.com.png */,
+				FE9936AF25D3154600184F96 /* replay.png */,
+				FEDFD8CB25D32F96004377F7 /* Catch the donuts.png */,
+				FEDFD8CC25D32F96004377F7 /* new game.png */,
+				FEDFD8CD25D32F96004377F7 /* pngfuel.com (9).png */,
+				FEDFD8CA25D32F96004377F7 /* text1.png */,
+				FEDFD8D925D330BA004377F7 /* text2.png */,
+				FEDFD8D825D330BA004377F7 /* text3.png */,
+				FEDFD8DA25D330BA004377F7 /* text4.png */,
+				042E7F6B23C01D5400A5D50D /* 33.png */,
+				FE99368B25D314D100184F96 /* 333.png */,
+				042E7F5D23BFEDB500A5D50D /* output-onlinepngtools.png */,
+				042E7F5523BFE07900A5D50D /* Info.plist */,
+			);
+			path = "Catch Homer Simpson";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		042E7F4523BFE07300A5D50D /* Catch Homer Simpson */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 042E7F5823BFE07900A5D50D /* Build configuration list for PBXNativeTarget "Catch Homer Simpson" */;
+			buildPhases = (
+				042E7F4223BFE07300A5D50D /* Sources */,
+				042E7F4323BFE07300A5D50D /* Frameworks */,
+				042E7F4423BFE07300A5D50D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Catch Homer Simpson";
+			productName = "Catch Homer Simpson";
+			productReference = 042E7F4623BFE07300A5D50D /* Catch Homer Simpson.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		042E7F3E23BFE07200A5D50D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = Maverick;
+				TargetAttributes = {
+					042E7F4523BFE07300A5D50D = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 042E7F4123BFE07300A5D50D /* Build configuration list for PBXProject "Catch Homer Simpson" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 042E7F3D23BFE07200A5D50D;
+			productRefGroup = 042E7F4723BFE07300A5D50D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				042E7F4523BFE07300A5D50D /* Catch Homer Simpson */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		042E7F4423BFE07300A5D50D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				042E7F5423BFE07900A5D50D /* LaunchScreen.storyboard in Resources */,
+				042E7F5F23BFEDB500A5D50D /* output-onlinepngtools.png in Resources */,
+				FE99368F25D314D300184F96 /* 111.png in Resources */,
+				FEDFD8D025D32F96004377F7 /* new game.png in Resources */,
+				FE9936C325D3154600184F96 /* play Buttoun.png in Resources */,
+				FE9936B525D3154600184F96 /* pngfuel.com (7).png in Resources */,
+				FE9936BA25D3154600184F96 /* bomb.png in Resources */,
+				042E7F6C23C01D5400A5D50D /* 11.png in Resources */,
+				FE99368E25D314D300184F96 /* 333.png in Resources */,
+				FEDFD8C925D32F61004377F7 /* homero-png-homer-simpson-bart-simpson-clipart-f9313ff1ac133d3b.png in Resources */,
+				FE9936C125D3154600184F96 /* homerhead.png in Resources */,
+				042E7F5123BFE07900A5D50D /* Assets.xcassets in Resources */,
+				042E7F6E23C01D5400A5D50D /* 33.png in Resources */,
+				FEDFD8D125D32F96004377F7 /* pngfuel.com (9).png in Resources */,
+				042E7F4F23BFE07300A5D50D /* Main.storyboard in Resources */,
+				FE99369025D314D300184F96 /* 222.png in Resources */,
+				FE9936B825D3154600184F96 /* home.png in Resources */,
+				FE9936BB25D3154600184F96 /* pngfuel.com (4).png in Resources */,
+				FE9936B025D3154600184F96 /* boom.png in Resources */,
+				FEDFD8DB25D330BA004377F7 /* text3.png in Resources */,
+				FEDFD8CF25D32F96004377F7 /* Catch the donuts.png in Resources */,
+				FE9936B125D3154600184F96 /* pngfuel.com (8).png in Resources */,
+				FEDFD8CE25D32F96004377F7 /* text1.png in Resources */,
+				FE9936C825D3154600184F96 /* replay.png in Resources */,
+				FE9936C025D3154600184F96 /* homerhaed2.png in Resources */,
+				FE9936C725D3154600184F96 /* donut.png in Resources */,
+				FEDFD8DC25D330BA004377F7 /* text2.png in Resources */,
+				042E7F5C23BFE0B000A5D50D /* 2.png in Resources */,
+				042E7F6D23C01D5400A5D50D /* 22.png in Resources */,
+				FE9936C625D3154600184F96 /* homerhuggingdonut.png in Resources */,
+				FE9936C225D3154600184F96 /* pngfuel.com (1).png in Resources */,
+				FE9936BF25D3154600184F96 /* pngfuel.com.png in Resources */,
+				042E7F6223BFFD2600A5D50D /* 1.png in Resources */,
+				FE9936BE25D3154600184F96 /* pngfuel.com (3).png in Resources */,
+				FEDFD8DD25D330BA004377F7 /* text4.png in Resources */,
+				FE9936C525D3154600184F96 /* new game 1.png in Resources */,
+				FE9936B925D3154600184F96 /* leaderboard.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		042E7F4223BFE07300A5D50D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				04EECE1B23C18C44000F17B8 /* SecondViewController.swift in Sources */,
+				04EECE1923C18C1D000F17B8 /* FirstViewController.swift in Sources */,
+				042E7F4C23BFE07300A5D50D /* ViewController.swift in Sources */,
+				042E7F4A23BFE07300A5D50D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		042E7F4D23BFE07300A5D50D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				042E7F4E23BFE07300A5D50D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		042E7F5223BFE07900A5D50D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				042E7F5323BFE07900A5D50D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		042E7F5623BFE07900A5D50D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		042E7F5723BFE07900A5D50D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		042E7F5923BFE07900A5D50D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KXRJR3ZTQT;
+				INFOPLIST_FILE = "Catch Homer Simpson/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Maverick.Catch-Homer-Simpson";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		042E7F5A23BFE07900A5D50D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KXRJR3ZTQT;
+				INFOPLIST_FILE = "Catch Homer Simpson/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Maverick.Catch-Homer-Simpson";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		042E7F4123BFE07300A5D50D /* Build configuration list for PBXProject "Catch Homer Simpson" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				042E7F5623BFE07900A5D50D /* Debug */,
+				042E7F5723BFE07900A5D50D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		042E7F5823BFE07900A5D50D /* Build configuration list for PBXNativeTarget "Catch Homer Simpson" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				042E7F5923BFE07900A5D50D /* Debug */,
+				042E7F5A23BFE07900A5D50D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 042E7F3E23BFE07200A5D50D /* Project object */;
+}
